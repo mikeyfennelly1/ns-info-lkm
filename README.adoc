@@ -1,0 +1,18 @@
+= ns-info-lkm (Namespace Information Loadable Kernel Module)
+
+== Purpose
+
+To provide a method of looking under the hood at kernel data structures, more specifically how process control blocks relate to namespaces.
+
+Namespaces are fundamental to container technology. This can help get hands on with them.
+
+== Download
+
+[source, bash]
+----
+git clone git@github.com:mikeyfennelly1/ns-info-lkm.git
+----
+
+== Note on cryptographic signatures for UEFI Secure Boot
+
+You may need to sign this module for secure boot. https://ubuntu.com/blog/how-to-sign-things-for-secure-boot[Here is a link] to how you can do that.
